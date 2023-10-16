@@ -1,0 +1,17 @@
+.services {
+  position: relative;
+  width: 100%;
+  // min-height: 80vh;
+  // background: greenyellow;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-top: 100px;
+  .container-item-services {
+    position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    
+  }
+}

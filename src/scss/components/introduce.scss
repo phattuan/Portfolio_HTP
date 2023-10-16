@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+.layout-introduce {
+  width: 100%;
+  .content-introduce {
+    display: flex;
+    width: inherit;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    .content {
+      font-size: 2.5rem;
+      display: flex;
+      font-family: 'Playfair', serif;
+      letter-spacing: 5px;
+      color: rgba(255, 255, 255, 0.7);
+      text-align: center;
+      
+     
+      .text-strong {
+        display: inline-block;
+        color: rgba(0, 255, 17, 0.7);
+        width: 0px;
+        overflow: hidden;
+        white-space: nowrap;
+        border-right: 5px solid rgba(0, 255, 17, 0.7);
+        animation: effect-text-strong 3s steps(12) infinite ;
+        padding-right: 10px;
+        margin-left: 10px;
+        font-weight: bold;
+      }
+    }
+    .content-1{
+      text-align: start;
+      width: 100%;
+      margin-left: 50%;
+    }
+    .content-2{
+      text-transform: uppercase;
+    }
+  }
+}
+@keyframes effect-text-strong{
+    to{
+        width: 330px;
+    }
+
+}
